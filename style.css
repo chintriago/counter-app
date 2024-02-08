@@ -90,6 +90,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
+    margin-bottom: 2em;
 }
 
 .button-minus-container {
