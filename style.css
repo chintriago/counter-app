@@ -1,29 +1,9 @@
 /* Styled mobile first */
-/* GENERAL/RESET */
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
+/* GENERAL*/
 
 body {
     background-color: #36454F;
-}
-
-button {
-    all: unset;
-    cursor: pointer;
 }
 
 /* UTILITY CLASSES */
@@ -139,6 +119,7 @@ button {
     .buttons-container {
         width: 80%;
         grid-template-rows: initial;
+        margin-bottom: 0;
     }
 
     .button-minus-container {
