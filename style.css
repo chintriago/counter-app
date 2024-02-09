@@ -1,16 +1,24 @@
 /* Styled mobile first */
 
 /* GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
 html {
+    /* mobile viewport bug fix for Safari */
     height: -webkit-fill-available;
+    background-color: #36454F;
+    background: #36454F;
+    font-size: 16px;
+    font-family: 'Protest Strike', sans-serif;
 }
 
 body {
+    /* mobile viewport bug fix for Safari */
     min-height: 100vh;
-    /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
     background-color: #36454F;
-    font-size: 16px;
+    background: #36454F;
 }
 
 /* Disabled zoom for buttons for mobile */
@@ -71,7 +79,7 @@ input[type="button"] {
 
 .title {
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 4px;
     text-align: center;
 }
@@ -85,18 +93,16 @@ input[type="button"] {
 /* number */
 .number-container {
     height: 50%;
-    width: 100%;
 }
 
 .number {
     color: white;
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 /* buttons */
 .buttons-container {
     height: 50%;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
@@ -178,6 +184,3 @@ button:active {
         grid-column: initial;
     }
 }
-
-/* Mobile */
-@media screen and (max-width: 550px) {}
