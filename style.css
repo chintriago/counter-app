@@ -7,12 +7,24 @@ body {
     font-size: 16px;
 }
 
+/* Disabled zoom for buttons for mobile */
 * {
     touch-action: manipulation !important;
 }
 
+/* Disabled zoom for buttons for SAFARI */
 input[type="button"] {
     touch-action: manipulation !important;
+}
+
+/* Disable text selection highlighting for mobile */
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #cc0000;
 }
 
 /* UTILITY CLASSES */

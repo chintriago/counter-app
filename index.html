@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- disabled zoom for buttons -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Digital Counter</title>
     <link rel="stylesheet" href="reset.css">
@@ -23,13 +24,13 @@
                 </div>
                 <div class="buttons-container">
                     <div class="button-minus-container flex-center">
-                        <button id="button-minus-js" class="button-minus btn flex-center">-</button>
+                        <button id="button-minus-js" class="button-minus btn flex-center unselectable">-</button>
                     </div>
                     <div class="button-reset-container flex-center">
-                        <button id="button-reset-js" class="button-reset flex-center">reset</button>
+                        <button id="button-reset-js" class="button-reset flex-center unselectable">reset</button>
                     </div>
                     <div class="button-plus-container flex-center">
-                        <button id="button-plus-js" class="button-plus btn flex-center">+</button>
+                        <button id="button-plus-js" class="button-plus btn flex-center unselectable">+</button>
                     </div>
                 </div>
             </div>
